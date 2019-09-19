@@ -28,7 +28,7 @@ def test():
             a = str(i * j);  b = a[::-1]
             if a==b:
                 if num < int(a): num = int(a) ;break
-
+ 
     print(num)
 
 
