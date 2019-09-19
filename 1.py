@@ -6,6 +6,9 @@ def test():
         if i%3 ==0 or i %5 ==0: sum+=i
     print('%d' %(sum))
 
+
+
+
 if __name__ == "__main__":
     start = time.time()
     test()
